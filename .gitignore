@@ -4,6 +4,9 @@
 ### Git ###
 *.orig
 
+### iPython ###
+.ipynb_checkpoints
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
