@@ -32,3 +32,17 @@
     * 파이썬 환경설정
         * Python Interpreter 설정 변경
     * 파이참 보다는 콘솔/eclipse 쪽이 더 익숙하므로 설치만 하고, Pass
+
+4. Vim 연동
+
+
+5. Jupyter Theme 설치
+    * [http://haanjack.github.io/jupyter/theme/2016/03/08/jupyter-theme.html](주피터 노트북 테마적용)
+```bash
+    source activate py35
+    pip install git+https://github.com/dunovank/jupyter-themes.git
+    jt -t grade3 -vim -cursw 1 -cursc b -lineh 120 -fs 12 -nf exosans -nfs 11 -ofs 13 -altp; jupyter notebook
+```
+
+
+
