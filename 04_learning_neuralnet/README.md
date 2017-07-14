@@ -3,7 +3,7 @@
 ## 4.1. 데이터를 통해 학습한다
 
 ### 배치용 교차 엔트로피 오차 구현하기
-* [http://laonple.blog.me/220554852626](테스트)
+* [학습속도 문제와 Cross-Entropy Cost Function](http://laonple.blog.me/220554852626)
 
 ### 엔트로피란?
 * [http://blog.acronym.co.kr/433](정보이론에서 엔트로핀라..)
