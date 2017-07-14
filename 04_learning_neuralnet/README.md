@@ -6,7 +6,7 @@
 * [학습속도 문제와 Cross-Entropy Cost Function](http://laonple.blog.me/220554852626)
 
 ### 엔트로피란?
-* [http://blog.acronym.co.kr/433](정보이론에서 엔트로핀라..)
+* [정보이론에서 엔트로피](http://blog.acronym.co.kr/433)
 * 어떤 확률변수의 불확실을 측정하는 수, Claude Shannon 은 정보량이라 표현했다
 * entropy = -1 * Sigma { p(x) * log2(p(x)) } 와 같이 곱의 합으로 계산
 * 확률은 0~1 사이의 값이며 log 취한 값은 음수로 나와서 결과값은 항상 양수가 나온다
@@ -26,7 +26,7 @@
 ### 크로스 엔트로피? 어떻게 응용이 가능한가?
 * 두 확률분포가 얼마나 가깝거나 혹은 먼지를 나타내는 값이다.
 * cost function 과 같이 기대값(확률변수)와 실제 연산값의 차이가 클 수록 큰 값이 나오고 항상 양수로 나온다
-* 좀 더 자세한 사항은 [http://iew3.technion.ac.il/CE/](Cross-Entropy) 에서 확인이 가능하다
+* 좀 더 자세한 사항은 [Cross-Entropy](http://iew3.technion.ac.il/CE) 에서 확인이 가능하다
 
 
 ## 4.2 손실함수 
