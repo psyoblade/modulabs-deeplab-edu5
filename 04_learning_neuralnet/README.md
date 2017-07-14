@@ -54,7 +54,7 @@
 
 ### 4.2.2 교차 엔트로피 오차
 
-### 엔트로피[엔트로피](http://blog.acronym.co.kr/433)란?
+### [엔트로피](http://blog.acronym.co.kr/433)란?
 * 확률변수의 분포의 특징을 하나의 숫자로 표현하기 위한 방법 
 * 어떤 확률변수의 불확실을 측정하는 수, Claude Shannon 은 정보량이라 표현했다
     * entropy = -1 * Sigma { p(x) * log2(p(x)) } 와 같이 곱의 합으로 계산
