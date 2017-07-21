@@ -34,10 +34,20 @@
     * 파이참 보다는 콘솔/eclipse 쪽이 더 익숙하므로 설치만 하고, Pass
 
 4. Vim 연동
-
+> [https://github.com/lambdalisue/jupyter-vim-binding](주피터 Vi 연동)
+```
+# Create required directory in case (optional)
+mkdir -p $(jupyter --data-dir)/nbextensions
+# Clone the repository
+cd $(jupyter --data-dir)/nbextensions
+rm -rf vim_binding
+git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
+# Activate the extension
+jupyter nbextension enable vim_binding/vim_binding
+```
 
 5. Jupyter Theme 설치
-    * [http://haanjack.github.io/jupyter/theme/2016/03/08/jupyter-theme.html](주피터 노트북 테마적용)
+> [http://haanjack.github.io/jupyter/theme/2016/03/08/jupyter-theme.html](주피터 노트북 테마적용)
 ```bash
     source activate py35
     pip install git+https://github.com/dunovank/jupyter-themes.git
